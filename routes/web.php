@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/restaurant-owner', function () {
+    return view('restaurant-owner.homepage');
+});
