@@ -23,5 +23,18 @@ mix.scripts([
 		'resources/assets/css/restaurant-owner/owl.carousel.css',
 		'resources/assets/css/restaurant-owner/owl.theme.default.css',
 		'resources/assets/css/restaurant-owner/magnific-popup.css',
-		'resources/assets/css/restaurant-owner/style.css'
+		'resources/assets/css/restaurant-owner/style-homepage.css'
 		], 'public/css/restaurant-owner-homepage.css');
+mix.scripts([
+	'resources/assets/js/restaurant-owner/jquery.min.js',
+	'resources/assets/js/restaurant-owner/bootstrap.min.js',
+	'resources/assets/js/restaurant-owner/icheck.min.js'
+	], 'public/js/restaurant-owner-login.js')
+	.styles([
+		'resources/assets/css/restaurant-owner/bootstrap.min.css',
+		'resources/assets/css/restaurant-owner/font-awesome.min.css',
+		'resources/assets/css/restaurant-owner/ionicons.min.css',
+		'resources/assets/css/restaurant-owner/AdminLTE.min.css',
+		'resources/assets/css/restaurant-owner/blue.css'
+		], 'public/css/restaurant-owner-login.css');
+
