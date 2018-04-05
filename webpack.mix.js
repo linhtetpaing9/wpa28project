@@ -37,4 +37,8 @@ mix.scripts([
 		'resources/assets/css/restaurant-owner/AdminLTE.min.css',
 		'resources/assets/css/restaurant-owner/blue.css'
 		], 'public/css/restaurant-owner-login.css');
+mix.styles([
+		'resources/assets/css/restaurant-owner/font-awesome.min.css',
+		'resources/assets/css/customers/customer-login.css'
+		], 'public/css/customer-login.css');
 

@@ -2,5 +2,6 @@
     "/js/restaurant-owner-homepage.js": "/js/restaurant-owner-homepage.js",
     "/css/restaurant-owner-homepage.css": "/css/restaurant-owner-homepage.css",
     "/js/restaurant-owner-login.js": "/js/restaurant-owner-login.js",
-    "/css/restaurant-owner-login.css": "/css/restaurant-owner-login.css"
+    "/css/restaurant-owner-login.css": "/css/restaurant-owner-login.css",
+    "/css/customer-login.css": "/css/customer-login.css"
 }

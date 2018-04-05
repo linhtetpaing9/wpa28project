@@ -31,3 +31,13 @@ Route::get('/restaurant-owner-login', function () {
 Route::get('/restaurant-owner-register', function () {
     return view('restaurant-owner.register-form');
 });
+
+
+Route::get('/customer-login', function () {
+    return view('customers.login-form');
+});
+
+
+Route::get('/customer-register', function () {
+    return view('customers.register-form');
+});
