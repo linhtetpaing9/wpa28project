@@ -16,7 +16,7 @@ mix.scripts([
 	'resources/assets/js/restaurant-owner/bootstrap.min.js',
 	'resources/assets/js/restaurant-owner/jquery.magnific-popup.js',
 	'resources/assets/js/restaurant-owner/owl.carousel.min.js',
-	], 'public/js/restaurant-owner/restaurant-owner-homepage.js')
+	], 'public/js/restaurant-owner.js')
 	.styles([
 		'resources/assets/css/restaurant-owner/bootstrap.min.css',
 		'resources/assets/css/restaurant-owner/font-awesome.min.css',
@@ -24,4 +24,4 @@ mix.scripts([
 		'resources/assets/css/restaurant-owner/owl.theme.default.css',
 		'resources/assets/css/restaurant-owner/magnific-popup.css',
 		'resources/assets/css/restaurant-owner/style.css'
-		], 'public/css/restaurant-owner/restaurant-owner-homepage.css');
+		], 'public/css/restaurant-owner.css');
