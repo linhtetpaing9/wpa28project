@@ -7,7 +7,7 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-  <link rel="stylesheet" href="css/restaurant-owner-login.css">
+  <link rel="stylesheet" href="{{asset('css/admin-login.css')}}">
 
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -71,7 +71,7 @@
 </div>
 <!-- /.login-box -->
 
-<script src="js/restaurant-owner-login.js"></script>
+<script src="{{asset('js/admin-login.js')}}"></script>
 
 <script>
   $(function () {

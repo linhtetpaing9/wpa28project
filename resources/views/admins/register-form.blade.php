@@ -7,8 +7,7 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 <!--   Css and Js for Register and Login are the same-->  
-<link rel="stylesheet" href="css/restaurant-owner-login.css">
-
+<link rel="stylesheet" href="{{asset('css/admin-login.css')}}">
 
 
   <!-- Google Font -->
@@ -70,7 +69,7 @@
 </div>
 <!-- /.register-box -->
 
-<script src="js/restaurant-owner-login.js"></script>
+<script src="{{asset('js/admin-login.js')}}"></script>
 <script>
   $(function () {
     $('input').iCheck({

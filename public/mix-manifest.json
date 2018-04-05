@@ -1,6 +1,10 @@
 {
     "/js/restaurant-owner-homepage.js": "/js/restaurant-owner-homepage.js",
     "/css/restaurant-owner-homepage.css": "/css/restaurant-owner-homepage.css",
-    "/js/restaurant-owner-login.js": "/js/restaurant-owner-login.js",
-    "/css/restaurant-owner-login.css": "/css/restaurant-owner-login.css"
+    "/js/admin-login.js": "/js/admin-login.js",
+    "/css/admin-login.css": "/css/admin-login.css",
+    "/js/admin-dashboard.js": "/js/admin-dashboard.js",
+    "/css/admin-dashboard.css": "/css/admin-dashboard.css",
+    "/js/restaurant-owners-login.js": "/js/restaurant-owners-login.js",
+    "/css/restaurant-owners-login.css": "/css/restaurant-owners-login.css"
 }

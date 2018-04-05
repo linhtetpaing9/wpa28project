@@ -20,14 +20,27 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/restaurant-owner', function () {
-    return view('restaurant-owner.homepage');
+Route::get('/admins', function () {
+    return view('admins.dashboard');
 });
 
-Route::get('/restaurant-owner-login', function () {
-    return view('restaurant-owner.login-form');
+Route::get('/admins-login', function () {
+    return view('admins.login-form');
 });
 
-Route::get('/restaurant-owner-register', function () {
-    return view('restaurant-owner.register-form');
+Route::get('/admins-register', function () {
+    return view('admins.register-form');
+});
+
+
+Route::get('/restaurant-owners', function () {
+    return view('restaurant-owners.homepage');
+});
+
+Route::get('/restaurant-owners-login', function () {
+    return view('restaurant-owners.login-form');
+});
+
+Route::get('/restaurant-owners-register', function () {
+    return view('restaurant-owners.register-form');
 });
