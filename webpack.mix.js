@@ -66,3 +66,4 @@ mix.scripts([
 		'resources/assets/css/restaurant-owners/style-dashboard-responsive.css'
 		], 'public/css/restaurant-owners-login.css');
 
+

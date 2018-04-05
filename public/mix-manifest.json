@@ -1,6 +1,7 @@
 {
     "/js/restaurant-owner-homepage.js": "/js/restaurant-owner-homepage.js",
     "/css/restaurant-owner-homepage.css": "/css/restaurant-owner-homepage.css",
+
     "/js/admin-login.js": "/js/admin-login.js",
     "/css/admin-login.css": "/css/admin-login.css",
     "/js/admin-dashboard.js": "/js/admin-dashboard.js",
